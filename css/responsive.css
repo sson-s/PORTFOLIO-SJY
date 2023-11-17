@@ -1,0 +1,1063 @@
+/* header */
+@media screen and (max-width: 1270px) {
+  header .container h1 {
+    top: 40%; left: 10%;
+    font-size: 5.8rem;
+    transition: all 0.2s;
+  }
+
+  header .container > p {
+    top: 43%; left: 58%;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+  }
+
+  header .container > p > span::after {
+    height: 15px;
+  }
+  
+  header .container .top > p {
+    top: 5%; left: 80%;
+  }
+
+  header .container .top > span {
+    top: 5%; left: 58%;
+  }
+
+  header .container .bottom .bottom-left {
+    bottom: 5%; left: 58%;
+  }
+
+  header .container .bottom .bottom-right {
+    bottom: 5%; left: 80%;
+  } 
+
+  header .scroll span {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  header .container h1 {
+    font-size: 4rem;
+  }
+
+  header .container > p {
+    top: 41%; left: 58%;
+  }
+
+  header .top-btn {
+    bottom: 5%; left: 96%;
+  }
+
+  header .top-btn span {
+    display: none;
+  }
+
+  header .top-btn .arr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header .container > p {
+    top: 41%; left: 63%;
+  }
+
+  header .top-btn {
+    bottom: 5%; left: 91%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .container h1 {
+    top: 40%; left: 6%;
+  }
+
+  header .container > p {
+    top: 41.3%; left: 58%;
+  }
+
+  header .container > p > span::after {
+    height: 15px;
+  }
+
+  header .container .top > p {
+    top: 6%; left: 79%;
+  }
+
+  header .container .top > span {
+    top: 6%; left: 6%;
+  }
+
+  header .container .bottom .bottom-left {
+    bottom: 5%; left: 6%;
+  }
+
+  header .container .bottom .bottom-right {
+    bottom: 6%; left: 75%;
+  }
+
+  header .container .bottom .bottom-right p {
+    margin-left: 76px;  
+  }
+ }
+
+@media screen and (max-width: 700px) {
+  header .container > p {
+    top: 50%; left: 6%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header .container .top > p {
+    top: 6%; left: 70%;
+  }
+
+  header .container .bottom .bottom-right {
+    bottom: 6%; left: 66%;
+  }
+
+  header .scroll span {
+    width: 6px;
+    height: 6px;
+  }
+
+  header .scroll .s-arr {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  header .container .top > p {
+    top: 6%; left: 62%;
+  }
+
+  header .container .bottom .bottom-right {
+    bottom: 5%; left: 58%;
+  }
+
+  header .scroll span {
+    display: none;
+  }
+
+  header .scroll .s-arr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  header .container h1 {
+    font-size: 3rem;
+  }
+} 
+
+/* about */
+@media screen and (max-width: 1140px) {
+  main .inner .won {
+    top: 24.5%; left: 11%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .inner .top {
+    top: 8%; left: 6%;
+  }
+
+  main .inner .introduce {
+    top: 36%; left: 14%;
+  }
+
+  main .inner .won  {
+    width: 180px;
+    height: 180px;
+    top: 23%; left: 0%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main .inner .introduce {
+    top: 30%; left: 24%;
+  }
+
+  main main .inner .introduce h3 {
+    font-size: 1.2rem;
+  }
+
+  main .inner .introduce h1 {
+    font-size: 2.6rem;
+  }
+  
+  main .inner .introduce p {
+  height: 70px;
+  margin: 50px 0px 0px 0px;
+  }
+
+  main .inner .won {
+    width: 140px;
+    height: 140px;
+    top: 24%; left: 10%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main .inner .full-landing-image {
+  height: 95vh;
+  }
+
+  main .inner .introduce {
+    top: 26%; left: 22%;
+  }
+
+  main main .inner .introduce h3 {
+    font-size: 1rem;
+  }
+
+  main .inner .introduce h1 {
+    font-size: 2.2rem;
+  }
+
+  main .inner .introduce p {
+    font-size: 0.9rem;
+    height: 60px;
+    margin: 40px 0px 0px 0px;
+  }
+
+  main .inner .won {
+    width: 120px;
+    height: 120px;
+    top: 20%; left: 3%;
+  }
+}
+
+/* roll */
+@media screen and (max-width: 1980px) {
+  main .sub-bg {
+    overflow-x: hidden;
+  }
+} 
+
+@media screen and (max-width: 1140px) {
+  main .sub-bg {
+    height: 500px;
+  }
+
+  main .sub-bg .text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  main .sub-bg {
+    height: 400px;
+  }
+}
+
+/* skill */
+@media screen and (max-width: 1670px) {
+  .skill-box .icon {
+    top: 54%; left: 15%;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .skill-box h1 {
+    top: 33%; left: 43%;
+  }
+
+  .skill-box .icon {
+    top: 54%; left: 10%;
+  }
+}
+
+@media screen and (max-width: 1344px) {
+  .skill-box .icon {
+    top: 54%; left: 6%;
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 1244px) {
+  .skill-box .icon {
+    top: 54%; left: 2%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .skill-box h1 {
+    font-size: 3.5rem;
+    top: 33%; left: 44%;
+  }
+
+  .skill-box .icon {
+    transform: scale(0.8);
+    top: 54%; left: -2%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .skill-box h1 {
+    top: 36%; left: 46%;
+  }
+
+  .skill-box .icon {
+    transform: scale(0.6);
+    top: 52%; left: -6%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .skill-box h1 {
+    top: 36%; left: 43%;
+  }
+
+  .skill-box .icon {
+    top: 54%; left: -11%;
+   }
+}
+
+@media screen and (max-width: 894px) {
+  .skill-box .top {
+    top: 8%; left: 6%;
+  }
+
+  .skill-box .icon {
+    top: 40%; left: 15%;
+    flex-wrap: wrap;
+  }
+
+  .skill-box .icon span {
+    margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 742px) {
+  .skill-box h1 {
+    top: 33%; left: 40%;
+  }
+
+  .skill-box .icon {
+    top: 39%; left: 8%;
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .skill-box h1 {
+    top: 28%; left: 39%;
+  }
+
+  .skill-box .icon {
+    top: 30%; left: 14%;
+  }
+}
+
+@media screen and (max-width: 554px) {
+  .skill-box h1 {
+    top: 22%; left: 36%;
+  }
+
+  .skill-box .icon {
+    top: 18%; left: 20%;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  main .skill-box .full-landing-image {
+    height: 90vh;
+  }
+
+  .skill-box h1 {
+    font-size: 3rem;
+    top: 25%; left: 34%;
+  }
+
+  .skill-box .icon {
+    top: 18%; left: 12%;
+    transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main .skill-box .full-landing-image {
+    height: 80vh;
+  }
+
+  .skill-box h1 {
+    font-size: 3rem;
+    top: 22%; left: 34%;
+  }
+
+  .skill-box .icon {
+    top: 12%; left: 12%;
+    transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  main .skill-box .full-landing-image {
+    height: 80vh;
+  }
+
+  .skill-box h1 {
+    font-size: 2.8rem;
+    top: 24%; left: 31%;
+  }
+
+  .skill-box .icon {
+    top: 10%; left: 6%;
+    transform: scale(0.45);
+  }
+}
+
+/* portfolio */
+@media screen and (max-width: 1730px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -5%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide h1 {
+    width: 600px;
+    padding-right: 40%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -25%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 10%; left: 43.5%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 86%; left: 39%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 86%; left: 60%;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -15%;
+    transform: scale(0.9);
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -33%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 12%; left: 41%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 84%; left: 36%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 84%; left: 60%;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -23%;
+    transform: scale(0.8);
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -41%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 14%; left: 39%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 82%; left: 34%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 82%; left: 60%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -32%;
+    transform: scale(0.75);
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -54%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide h1 {
+    width: 520px;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 16%; left: 39%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 80%; left: 34%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 80%; left: 63%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -8%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -9%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide h1 {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 80%; left: 33%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 80%; left: 65%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -25%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -11%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 15%; left: 36%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 81%; left: 28%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 81%; left: 69%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -40%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -13%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 17%; left: 33%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 79%; left: 25%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 79%; left: 70%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -52%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -14.5%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 17%; left: 30%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 79%; left: 20%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 79%; left: 73%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: 0%; left: -61%;
+    transform: scale(0.7);
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 42%; left: -15%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main .portfolio-box .full-landing-image {
+    height: 900px;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: -2%; left: -70%;
+    transform: scale(0.65);
+  }
+
+  .mySwiper .swiper-wrapper .swiper-slide-active {
+    height: 800px;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 54%; left: -16%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    transform: scale(0.9);
+    bottom: 14%; left: 29%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    font-size: 1.4rem;
+    top: 81%; left: 21%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    font-size: 1.4rem;
+    top: 81%; left: 74%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  main .portfolio-box .full-landing-image {
+    height: 800px;
+  }
+  
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: -7%; left: -95%;
+    transform: scale(0.5);
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 54%; left: -19%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 16%; left: 24%;
+    transform: scale(0.8);
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    font-size: 1.2rem;
+    top: 78%; left: 19%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    font-size: 1.2rem;
+    top: 78%; left: 74%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: -7%; left: -113%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 54%; left: -21%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 16%; left: 20%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 78%; left: 14%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 78%; left: 76%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: -7%; left: -143%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 54%; left: -25%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    bottom: 16%; left: 16%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    top: 78%; left: 12%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    top: 78%; left: 77%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  main .portfolio-box .full-landing-image {
+    height: 740px;
+  }
+
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
+    top: -10%; left: -156%;
+    transform: scale(0.45);
+  }
+
+ main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 54%; left: -27%;
+  }
+
+  main .portfolio-box .mySwiper .control-bg  {
+    transform: scale(0.8);
+    bottom: 16%; left: 15%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-prev {
+    font-size: 1.2rem;
+    top: 78%; left: 10%;
+  }
+
+  main .portfolio-box .mySwiper .swiper-button-next {
+    font-size: 1.2rem;
+    top: 78%; left: 82%;
+  }
+}
+
+/* footer */
+@media screen and (max-width: 1472px) {
+  footer .end:before, footer .end:after {
+    top: 33%; left: 35%;
+  }
+  
+  footer .end h1 {
+    top: 36%; left: 36%;
+  }
+
+  footer .end:after {
+    top: 62%;
+  }
+
+  footer .end span {
+    top: 50%; left: 37%;
+  }
+
+  footer .end p {
+    top: 54%; left: 33.5%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  main {
+    padding-bottom: 1000px; 
+  }
+
+  footer .full-landing-image {
+    height: 1000px;
+  }
+
+  footer .end:before, footer .end:after {
+    top: 33%; left: 34%;
+
+  }
+  
+  footer .end h1 {
+    top: 36%; left: 34%;
+  }
+
+  footer .end:after {
+    top: 62%;
+  }
+
+  footer .end span {
+    top: 50%; left: 35%;
+  }
+
+  footer .end p {
+    top: 54%; left: 31%;
+  }
+
+  footer .bottom span {
+    bottom: 8%; left: 80%;
+  }
+
+  footer .bottom .p {
+    bottom: 4.7%; left: 62%;
+  }
+
+  footer .bottom .e{
+    bottom: 5%; left: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer .end:before, footer .end:after {
+    top: 33%; left: 29%;
+  }
+  
+  footer .end h1 {
+    top: 36%; left: 31%;
+  }
+
+  footer .end:after {
+    top: 62%;
+  }
+
+  footer .end span {
+    top: 50%; left: 31%;
+  }
+
+  footer .end p {
+    top: 54%; left: 27%;
+  }
+
+  footer .bottom span {
+    bottom: 8%; left: 77%;
+  }
+
+  footer .bottom .p {
+    bottom: 4.7%; left: 58%;
+  }
+
+  footer .bottom .e{
+    bottom: 5%; left: 77%;
+  }
+}
+@media screen and (max-width: 870px) {
+  footer .end:before, footer .end:after {
+    top: 33%; left: 26%;
+  }
+  
+  footer .end h1 {
+    top: 36%; left: 28%;
+  }
+
+  footer .end:after {
+    top: 62%;
+  }
+
+  footer .end span {
+    top: 50%; left: 28%;
+  }
+
+  footer .end p {
+    top: 54%; left: 23%;
+  }
+
+  footer .bottom .p {
+    bottom: 4.7%; left: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .end:before, footer .end:after {
+    top: 33%; left: 22%;
+  }
+  
+  footer .end h1 {
+    top: 36%; left: 24%;
+  }
+
+  footer .end:after {
+    top: 62%;
+  }
+
+  footer .end span {
+    top: 50%; left: 26%;
+  }
+
+  footer .end p {
+    top: 54%; left: 20%;
+  }
+
+  footer .bottom .p {
+    bottom: 4.7%; left: 40%;
+  }
+}
+
+@media screen and (max-width: 688px) {
+    footer .end:before, footer .end:after {
+      top: 33%; left: 20%;
+  }
+    
+    footer .end h1 {
+      top: 36%; left: 22%;
+  }
+  
+    footer .end:after {
+      top: 62%;
+  }
+  
+    footer .end span {
+      top: 50%; left: 24%;
+  }
+  
+    footer .end p {
+      top: 54%; left: 18%;
+  }
+
+  footer .bottom span {
+    bottom: 8%; left: 68%;
+  } 
+
+  footer .bottom .p {
+    bottom: 4.7%; left: 36%;
+  }
+
+footer .bottom .e{
+    bottom: 5%; left: 68%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  footer .end:before, footer .end:after {
+    width: 360px;
+    top: 33%; left: 18%;
+  }
+  
+  footer .end h1 {
+    font-size: 6rem;
+    top: 36%; left: 22%;
+  }
+
+  footer .end:after {
+    top: 60%;
+  }
+
+  footer .end span {
+    font-size: 1.1rem;
+    top: 48%; left: 28%;
+  }
+
+  footer .end p {
+    font-size: 1rem;
+    top: 52%; left: 17%;
+  }
+
+footer .bottom span {
+  font-size: 1rem;
+  bottom: 7%; left: 70%;
+  }
+
+footer .bottom .tit {
+  font-size: 0.8rem;
+  bottom: 5%; left: 8%;
+
+}
+
+footer .bottom .p {
+  bottom: 4.8%; left: 36%;
+  font-size: 0.8rem;
+  }
+
+footer .bottom .e{
+  bottom: 5%; left: 70%;
+  font-size: 0.8rem;
+  } 
+}
+
+@media screen and (max-width: 456px) {
+  main {
+    padding-bottom: 800px; 
+  }
+
+  footer .full-landing-image {
+    height: 800px;
+  }
+
+  footer .end:before, footer .end:after {
+    width: 300px;
+    top: 30%; left: 16%;
+  }
+  
+  footer .end h1 {
+    font-size: 5rem;
+    top: 34%; left: 20%;
+  }
+
+  footer .end:after {
+    top: 57%;
+  }
+
+  footer .end span {
+    font-size: 1.1rem;
+    top: 46%; left: 22%;
+  }
+
+  footer .end p {
+    font-size: 0.8rem;
+    top: 50%; left: 17%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  footer .end:before, footer .end:after {
+    width: 260px;
+    top: 30%; left: 16%;
+  }
+  footer .end h1 {
+    top: 33%; left: 15%;
+  }
+
+  footer .end:after {
+    top: 54%;
+  }
+
+  footer .end span {
+    font-size: 1rem;
+    top: 44%; left: 19%;
+  }
+
+  footer .end p {
+    font-size: 0.7rem;
+    top: 48%; left: 15%;
+  }
+
+  footer .bottom span {
+    font-size: 1rem;
+    bottom: 7%; left: 64%;
+    }
+
+  footer .bottom .tit {
+    font-size: 0.7rem;
+  }
+
+  footer .bottom .p {
+    bottom: 5%; left: 32%;
+    font-size: 0.7rem;
+    }
+
+  footer .bottom .e{
+    bottom: 5%; left: 64%;
+    font-size: 0.7rem;
+    } 
+}
+
