@@ -82,3 +82,115 @@ play.click(function(){   // bannerplay 클릭했을 때 할일
     swiper.autoplay.start()
   }
 })
+
+// aos
+  AOS.init();
+
+
+// <!-- Initialize Swiper --> 
+var swiper = new Swiper(".slide-1", {
+  centeredSlides: true,
+  slidesPerView: 5,
+  // slidesPerView: auto,
+  spaceBetween: 30,
+  slidesOffsetBefore: -100,
+  // slidesOffsetAfter: 50,
+  autoHeight : true, 
+  loop: true, 
+  loopAdditionalSlies: 1,
+  // 반응형
+  breakpoints : {
+    320: {
+      slidesPerView: 2,
+    },
+
+    480: {
+      slidesPerView: 2,
+    },
+
+    600: {
+      slidesPerView: 3,
+    },
+    
+    768: {
+      slidesPerView: 3,
+    },
+
+    1024: {
+      slidesPerView: 3,
+    },
+  }
+});
+
+var swiper = new Swiper(".slide-2", {
+  centeredSlides: true,
+  slidesPerView: 5,
+  spaceBetween: 30,
+  slidesOffsetBefore: -100,
+  autoHeight : true, 
+  loop: true, 
+  loopAdditionalSlies: 1,
+  // 반응형
+  breakpoints : {
+    320: {
+      slidesPerView: 2,
+    },
+    
+    480: {
+      slidesPerView: 2,
+    },
+
+    600: {
+      slidesPerView: 3,
+    },
+    
+    768: {
+      slidesPerView: 3,
+    },
+
+    1024: {
+      slidesPerView: 3,
+    },
+  }
+});
+
+var swiper = new Swiper(".slide-3", {
+  centeredSlides: true,
+  loop: true, 
+  loopAdditionalSlies: 1,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper = new Swiper(".slide-4", {
+  centeredSlides: true,
+  loop: true, 
+  loopAdditionalSlies: 1,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+// 슬라이드 메뉴탭
+$(function(){
+  $('.right li').click(function(e){
+    e.preventDefault()
+    $('.right li').find('a').removeClass('active')
+    $(this).find('a').addClass('active')
+
+    $('.section .tab').hide()
+
+    let idx = $(this).index()
+    $('.section .tab').eq(idx).show()
+  })
+
+  $('.right li').eq(0).trigger('click')
+})
+
+
+
+

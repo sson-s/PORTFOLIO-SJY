@@ -474,7 +474,7 @@ main .skill-box .full-landing-image {
 
 
 /* ///////////////////////////////////// */
-
+/* 포트폴리오 clone */
 main .portfolio-box {
   width: 100%;
   height: 100%;
@@ -498,112 +498,71 @@ main .portfolio-box .top {
   top: 8%; left: 12%;
 }
 
-main .portfolio-box .mySwiper {
-  width: 100%;
-  /* width: 1920px; */
-  height: 100%;
+main .clone {
+  /* width: 100%; */
+  /* height: 100%;  */
+  height: 600px;
   position: absolute;
-  top: 0%; left: 0%;
-  display: block;
+  top: 22%; left: 12%;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper {
-  width: 100%;
-  height: 100%;
+main .clone h1 {
+  width: 500px;
+  height: 100px;
   position: absolute;
-  top: 6%; left: -35%;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide {
-  width: 1200px;
-  margin: 0px auto;
-  position: relative;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide:hover {
-  cursor: pointer;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide h1 {
+  top: -18%; left: 32%;
   font: 700 3.8rem 'Cormorant', serif;
   color: #2D75FF;
   text-align: center;
-  margin: 0 auto;
-  padding-left: 10%;
-  display: none;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide-active h1 {
-  display: block;
-  transition: all 0.5s;
-  transition-delay: all 0.45s;
+main .clone .clone-box {
+  /* width: 100%; */
+  width: 1500px;
+  /* height: 100%; */
+  display: flex;
+  margin-top: 30px;
 }
 
-.mySwiper .swiper-wrapper .swiper-slide-active {
-  width: 1200px;
-  margin: 0 auto;
+main .clone .clone-box .clone-01 {
+  margin-right: 8%;
+  position: relative;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .swiper-slide-prev {
-  width: 1200px;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .swiper-slide-next {
-  width: 1200px;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide img {
-  /* width: 680px; */
-  width: 480px;
-  /* margin: 0 auto; */
-  margin-top: 100px;
-  display: block;
-  position: absolute;
-  top: 20%; left: 0;
-  transition: all .1s linear;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide-active img {
-  transform: scale(1.4);
-  position: absolute;
-  top: 6%; left: 0;
-} 
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
-  width: 668px;
-  /* width: 334px; */
-  height: 300px;
+main .clone .clone-box .clone-01 > p {
+  width: 660px;
+  height: 600px;
   background-color: #fff;
+  border-radius: 30px;
+}
+
+main .clone .clone-box .clone-01 p img {
+  /* border-radius: 24px; */
   position: absolute;
-  top: 45%; left: -22%;
-  border-radius: 0 0 20px 20px;
-  z-index: -1;
-  display: none;
+  top: 28px; left: 30px;
+  border: 1px solid #eee;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide-active .text {
+main .clone .clone-box .clone-01 .text {
+  width: 600px;
+  position: absolute;
+  top: 65%; left: 6%;
   display: block;
-  transition: all 0.5s;
-  /* transition-delay: all 0.45s; */
-  transition-delay: all 1s;
-  box-shadow: 0px 8px 20px 6px rgb(0 0 0 / 5%); 
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text h3 {
+main .clone .clone-box .clone-01 .text > h3 {
   font: 600 1.6rem 'Noto Sans KR', sans-serif;
   color: #656F7C;
-  margin: 90px 0px 14px 68px;
+  margin-bottom: 12px;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text p {
+main .clone .clone-box .clone-01 .text > p {
   font: 400 1.1rem 'Poppins', sans-serif;
   color: #8b949e;
-  /* margin-top: 6px; */
-  margin-left: 70px;
   white-space: pre;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text span {
+main .clone .clone-box .clone-01 .text > span {
   font: 400 1.1rem 'Poppins', sans-serif;
   background-color: #77a7ff;
   color: #fff;
@@ -614,25 +573,10 @@ main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text span {
   text-align: center;
   line-height: 30px;
   position: absolute;
-  top: 32%; left: 78%;
+  top: 4%; left: 75%;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text span.num {
-  position: absolute;
-  top: 32%; left: 40%;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text span.group1 {
-  position: absolute;
-  top: 32%; left: 36%;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text span.group2 {
-  position: absolute;
-  top: 32%; left: 47%;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text button a {
+main .clone .clone-box .clone-01 .text > button a {
   font: 400 1.2rem 'Poppins', sans-serif;
   color:  #2D75FF;
   width: 150px;
@@ -646,99 +590,670 @@ main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text button a {
   position: relative;
 }
 
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text button.cl {
-  position: absolute;
-  bottom: 10%; left: 72%;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text button.re {
-  position: absolute;
-  bottom: 10%; left: 72%;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text button.ori {
-  position: absolute;
-  bottom: 10%; left: 46%;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text button.pt {
-  position: absolute;
-  bottom: 10%; left: 19.8%;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text button:hover a {
+main .clone .clone-box .clone-01 .text > button a:hover {
   background-color: #2D75FF;
   color: #fff;
 }
 
-main .portfolio-box .mySwiper .swiper-button-prev {
-  width: 50px;
-  height: 50px;
-  font: 300 1.6rem 'Cormorant', serif;
-  color: #656F7C;
-  display: block;
+main .clone .clone-box .clone-01 .text > button.ori {
+  position: absolute;
+  bottom: -64%; left: 46%;
   border: none;
-  position: absolute;
-  top: 88%; left: 38%;
-}
-
-main .portfolio-box .mySwiper .control-bg {
-  width: 250px; 
-  height: 70px; 
-  background: url('../img/p-list.png') no-repeat center center/contain;
-  position: absolute;
-  bottom: 8%; left: 43.5%;
-  display: block;
-}
-
-main .portfolio-box .mySwiper .control-bg .play-on {
-  width: 24px;
-  height: 24px;
-  background: url('../img/play-on.png') no-repeat center center/contain;
-  position: absolute;
-  bottom: 30%; left: 46.5%;
-  display: block;
+  border-radius: 25px;
   cursor: pointer;
-  z-index: 2;
 }
 
-main .portfolio-box .mySwiper .control-bg .play-on.start {
-  background-image: url('../img/stop.png'); 
+main .clone .clone-box .clone-01 .text > button.cl {
   position: absolute;
-  bottom: 30%; left: 45.5%;
+  bottom: -64%; left: 73%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-main .portfolio-box .mySwiper .swiper-button-next {
-  width: 50px;
-  height: 50px;
-  font: 300 1.6rem 'Cormorant', serif;
-  color: #656F7C;
+main .clone .clone-box .clone-02 {
+  position: relative;
+}
+
+main .clone .clone-box .clone-02 > p {
+  width: 660px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+main .clone .clone-box .clone-02 p img {
+  /* border-radius: 24px; */
+  position: absolute;
+  top: 28px; left: 30px;
+  /* border: 1px solid #eee; */
+}
+
+main .clone .clone-box .clone-02 .text {
+  width: 600px;
+  position: absolute;
+  top: 65%; left: 6%;
   display: block;
-  border: none;
+}
+
+main .clone .clone-box .clone-02 .text > h3 {
+  font: 600 1.6rem 'Noto Sans KR', sans-serif;
+  color: #656F7C;
+  margin-bottom: 12px;
+}
+
+main .clone .clone-box .clone-02 .text > p {
+  font: 400 1.1rem 'Poppins', sans-serif;
+  color: #8b949e;
+  white-space: pre;
+}
+
+main .clone .clone-box .clone-02 .text > span {
+  font: 400 1.1rem 'Poppins', sans-serif;
+  background-color: #77a7ff;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
   position: absolute;
-  top: 88%; left: 60%;
+  top: 4%; left: 40%;
+}
+
+main .clone .clone-box .clone-02 .text > button a {
+  font: 400 1.2rem 'Poppins', sans-serif;
+  color:  #2D75FF;
+  width: 150px;
+  height: 46px;
+  border: 1px solid #77a7ff;
+  background-color: #fff;
+  border-radius: 25px; 
+  text-decoration: none;
+  display: block;
+  line-height: 46px;
+  position: relative;
+}
+
+main .clone .clone-box .clone-02 .text > button a:hover {
+  background-color: #2D75FF;
+  color: #fff;
+}
+
+main .clone .clone-box .clone-02 .text > button.ori {
+  position: absolute;
+  bottom: -64%; left: 46%;
   border: none;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-main .portfolio-box .mySwiper .swiper-button-prev::after {
-  opacity: 0;
+main .clone .clone-box .clone-02 .text > button.cl {
+  position: absolute;
+  bottom: -64%; left: 73%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-main .portfolio-box .mySwiper .swiper-button-next::after {
-  opacity: 0;
+/* 포트폴리오 reDesign */
+main .portfolio-box-reD {
+  width: 100%;
+  height: 100%;
+  /* height: 1080px; */
+  position: relative;
+  display: block;
 }
+
+main .portfolio-box-reD .full-landing-image {
+  width: 100%;
+  /* height: 100vh; */
+  /* height: 100%; */
+  height: 1080px;
+  background: url('../img/bg3.png') no-repeat center center/cover;
+}
+
+main .portfolio-box-reD .top {
+  font: 200 1rem 'Poppins', sans-serif;
+  color: #656F7C;
+  position: absolute;
+  top: 3%; left: 12%;
+}
+
+main .re-design {
+  /* width: 100%; */
+  /* height: 100%; */
+  height: 600px;
+  position: absolute;
+  top: 11%; left: 12%;
+}
+
+main .re-design h1 {
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  top: -18%; left: 36%;
+  font: 700 3.8rem 'Cormorant', serif;
+  color: #2D75FF;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main .re-design .reD-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+
+main .re-design .reD-box .reD-01 {
+  margin-right: 8%;
+  position: relative;
+}
+
+main .re-design .reD-box .reD-01  > p {
+  width: 660px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+main .re-design .reD-box .reD-01 p img {
+  /* border-radius: 24px; */
+  position: absolute;
+  top: 28px; left: 30px;
+  /* border: 1px solid #eee; */
+}
+
+main .re-design .reD-box .reD-01 .text {
+  width: 600px;
+  position: absolute;
+  top: 65%; left: 6%;
+  display: block;
+}
+
+main .re-design .reD-box .reD-01 .text > h3 {
+  font: 600 1.6rem 'Noto Sans KR', sans-serif;
+  color: #656F7C;
+  margin-bottom: 12px;
+}
+
+main .re-design .reD-box .reD-01 .text > p {
+  font: 400 1.1rem 'Poppins', sans-serif;
+  color: #8b949e;
+  white-space: pre;
+}
+
+main .re-design .reD-box .reD-01 .text > span {
+  font: 400 1.1rem 'Poppins', sans-serif;
+  background-color: #77a7ff;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 4%; left: 32%;
+}
+
+main .re-design .reD-box .reD-01 .text > button a {
+  font: 400 1.2rem 'Poppins', sans-serif;
+  color:  #2D75FF;
+  width: 150px;
+  height: 46px;
+  border: 1px solid #77a7ff;
+  background-color: #fff;
+  border-radius: 25px; 
+  text-decoration: none;
+  display: block;
+  line-height: 46px;
+  position: relative;
+}
+
+main .re-design .reD-box .reD-01 .text > button a:hover {
+  background-color: #2D75FF;
+  color: #fff;
+}
+
+main .re-design .reD-box .reD-01 .text > button.ori {
+  position: absolute;
+  bottom: -64%; left: 46%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main .re-design .reD-box .reD-01 .text > button.re {
+  position: absolute;
+  bottom: -64%; left: 73%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main .re-design .reD-box .reD-02 {
+  position: relative;
+}
+
+main .re-design .reD-box .reD-02 > p {
+  width: 660px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+main .re-design .reD-box .reD-02 p img {
+  /* border-radius: 24px; */
+  position: absolute;
+  top: 28px; left: 30px;
+  border: 1px solid #eee;
+}
+
+main .re-design .reD-box .reD-02 .text {
+  width: 600px;
+  position: absolute;
+  top: 65%; left: 6%;
+  display: block;
+}
+
+main .re-design .reD-box .reD-02 .text > h3 {
+  font: 600 1.6rem 'Noto Sans KR', sans-serif;
+  color: #656F7C;
+  margin-bottom: 12px;
+}
+
+main .re-design .reD-box .reD-02 .text > p {
+  font: 400 1.1rem 'Poppins', sans-serif;
+  color: #8b949e;
+  white-space: pre;
+}
+
+main .re-design .reD-box .reD-02 .text > span {
+  font: 400 1.1rem 'Poppins', sans-serif;
+  background-color: #77a7ff;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 4%; left: 28%;
+}
+
+main .re-design .reD-box .reD-02 .text span.group1 {
+  position: absolute;
+  top: 4%; left: 28%;
+}
+
+main .re-design .reD-box .reD-02 .text span.group2 {
+  position: absolute;
+  top: 4%; left: 39%;
+}
+
+main .re-design .reD-box .reD-02 .text > button a {
+  font: 400 1.2rem 'Poppins', sans-serif;
+  color:  #2D75FF;
+  width: 150px;
+  height: 46px;
+  border: 1px solid #77a7ff;
+  background-color: #fff;
+  border-radius: 25px; 
+  text-decoration: none;
+  display: block;
+  line-height: 46px;
+  position: relative;
+}
+
+main .re-design .reD-box .reD-02 .text > button a:hover {
+  background-color: #2D75FF;
+  color: #fff;
+}
+
+main .re-design .reD-box .reD-02 .text > button.ori {
+  position: absolute;
+  bottom: -64%; left: 46%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main .re-design .reD-box .reD-02 .text > button.re {
+  position: absolute;
+  bottom: -64%; left: 73%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main .re-design .reD-box .reD-02 .text > button.pt {
+  position: absolute;
+  bottom: -64%; left: 19%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* 포트폴리오 Design */
+main .portfolio-box-D {
+  width: 100%;
+  height: 100%;
+  /* height: 1080px; */
+  position: relative;
+  display: block;
+}
+
+main .portfolio-box-D .full-landing-image {
+  width: 100%;
+  /* height: 100vh; */
+  /* height: 100%; */
+  height: 1080px;
+  background: url('../img/bg4.png') no-repeat center center/cover;
+}
+
+main .portfolio-box-D .top {
+  font: 200 1rem 'Poppins', sans-serif;
+  color: #656F7C;
+  position: absolute;
+  top: 5%; left: 12%;
+  align-items: center;
+  width: 1440px
+}
+
+main .portfolio-box-D .top .right {
+  float: right;
+  display: flex;
+}
+
+main .portfolio-box-D .top .right li {
+  list-style: none;
+  cursor: pointer;
+}
+
+main .portfolio-box-D .top .right li a {
+  text-decoration: none;
+  font: 200 1.5rem 'Poppins', sans-serif;
+  color: #656F7C;
+  margin-left: 100px;
+  transition: all .3s;
+}
+
+main .portfolio-box-D .top .right li a.active {
+  color: #2D75FF;
+}
+
+main .portfolio-box-D .top .right li a:hover {
+  color: #2D75FF;
+  transition: all .3s;
+}
+
+main .portfolio-box-D .section .tab {
+  position: absolute;
+  top: 20%; left: 0;
+  width: 100%;
+  /* height: 100%; */
+}
+
+/* 상세페이지 */
+main .portfolio-box-D .section .tab .slide-1 {
+  /* width: 1890px; */
+  width: 100%;
+  /* width: 2400px; */
+  height: 620px;
+  padding-top: 20px;
+}
+
+main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper {
+  width: 100%;
+  /* width: 1890px; */
+  height: 600px;
+}
+
+main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide {
+  width: 200px; 
+  height: 400px;
+  margin-top: 100px;
+  /* margin: 100px; */
+  border-radius: 30px;
+  background-color: #fff;
+  transform: translateY(0);
+  transition: all 0.5s;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}
+
+main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide.swiper-slide-active {
+  transform: scale(1.5);
+  border-radius: 30px;
+  /* margin: 0 50px; */
+  margin-left: 100px;
+  overflow: hidden;
+  border: 6px solid #77a7ff;
+  opacity: 1;
+}
+
+main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide.swiper-slide-active:hover {
+  transform: scale(1.5) translateY(-10px);
+  transition: all 0.5s;
+}
+
+main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide.swiper-slide-next {
+  margin-left: 100px;
+}
+
+/* 이벤트페이지 */
+main .portfolio-box-D .section .tab .slide-2 {
+  width: 100%;
+  height: 620px;
+  padding-top: 20px;
+}
+
+main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper {
+  width: 100%;
+  /* width: 1890px; */
+  height: 600px;
+}
+
+main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide {
+  width: 200px; 
+  height: 400px;
+  margin-top: 100px;
+  /* margin: 100px; */
+  border-radius: 30px;
+  background-color: #fff;
+  transform: translateY(0);
+  transition: all 0.5s;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}
+
+main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide.swiper-slide-active {
+  transform: scale(1.5);
+  border-radius: 30px;
+  /* margin: 0 50px; */
+  margin-left: 100px;
+  border: 6px solid #77a7ff;
+  overflow: hidden;
+  opacity: 1;
+}
+
+main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide.swiper-slide-active:hover {
+  transform: scale(1.5) translateY(-10px);
+  transition: all 0.5s;
+}
+
+main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide.swiper-slide-next {
+  margin-left: 100px;
+}
+
+/* 배너디자인 */
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box1 {
+  width: 1600px;
+  margin: 110px auto;
+  margin-left: 230px;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box1 .down {
+  margin-top: 30px;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box1 a img {
+  border-radius: 20px;
+  transform: translateY(0);
+  transition: all 0.5s;
+  box-shadow: 0px 3px 3px 3px #e2e2e2;
+  margin: 12px;
+  opacity: 0.5;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box1 a img:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box2 {
+  width: 1600px;
+  margin: 30px auto;
+  margin-left: 250px;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box2 a img {
+  border-radius: 20px;
+  transform: translateY(0);
+  transition: all 0.5s;
+  box-shadow: 0px 3px 3px 3px #e2e2e2;
+  margin: 12px;
+  opacity: 0.5;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box2 a img:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box2 .down {
+  margin-top: 40px;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box3 {
+  width: 1600px;
+  /* height: 100vh; */
+  margin: 10px auto;
+  margin-left: 284px;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box3 a img {
+  object-fit: cover;
+  border-radius: 10px;
+  transform: translateY(0);
+  transition: all 0.5s;
+  box-shadow: 0px 3px 3px 3px #e2e2e2;
+  margin: 12px;
+  opacity: 0.5;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-wrapper .swiper-slide .box3 a img:hover {
+  transform: translateY(-10px);
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-button-next {
+  margin-right: 120px;
+  color: #77a7ff;
+}
+
+main .portfolio-box-D .section .tab .slide-3 .swiper-button-prev {
+  margin-left: 120px;
+  color: #77a7ff;
+}
+
+
+/* ect */
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1 {
+  width: 1600px;
+  margin: 0 auto;
+  position: relative;
+} 
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1 a img {
+  margin: 30px;
+  border-radius: 30px;
+  transform: translateY(0);
+  transition: all 0.5s;
+  box-shadow: 0px 3px 3px 3px #e2e2e2;
+  opacity: 0.5;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1 a:nth-child(1) img {
+  margin-left: 205px;
+  object-fit: cover;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1 a:nth-child(3) img {
+  position: absolute;
+  top: 0; right: 12%;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1 a img:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+  /* border: 6px solid #77a7ff; */
+  opacity: 1;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box2 {
+  width: 1600px;
+  margin: 0 auto;
+} 
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box2 a img {
+  width: 400px;
+  margin: 40px;
+  border-radius: 30px;
+  transform: translateY(0);
+  transition: all 0.5s;
+  box-shadow: 0px 3px 3px 3px #e2e2e2;
+  opacity: 0.6;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box2 a img:first-child {
+  margin-left: 80px;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box2 a img:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+  /* border: 6px solid #77a7ff; */
+  opacity: 1;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-button-next {
+  margin-right: 120px;
+  color: #77a7ff;
+}
+
+main .portfolio-box-D .section .tab .slide-4 .swiper-button-prev {
+  margin-left: 120px;
+  color: #77a7ff;
+}
+
 
 /* footet ------------------------ */
 footer {

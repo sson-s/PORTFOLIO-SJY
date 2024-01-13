@@ -732,7 +732,7 @@
     transform: scale(0.45);
   }
 
- main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
+  main .portfolio-box .mySwiper .swiper-wrapper .swiper-slide .text {
     top: 54%; left: -27%;
   }
 
@@ -751,6 +751,1162 @@
     top: 78%; left: 82%;
   }
 }
+
+/* portfolio - clone */
+@media screen and (max-width: 1640px) {
+  main .clone h1 {
+    top: -18%; left: 26%;
+  }
+
+  main .clone .clone-box .clone-01 > p {
+    width: 600px;
+  }
+
+  main .clone .clone-box .clone-01 p img {
+    width: 540px;
+  }
+
+  main .clone .clone-box .clone-01 .text {
+    top: 62%;
+  }
+
+  main .clone .clone-box .clone-01 .text > span {
+    top: 5%; left: 75%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.ori  {
+    bottom: -80%; left: 36%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.cl {
+    bottom: -80%; left: 64%;
+  }
+
+  main .clone .clone-box .clone-02 > p {
+    width: 600px;
+  }
+
+  main .clone .clone-box .clone-02 p img {
+    width: 540px;
+  }
+
+  main .clone .clone-box .clone-02 .text {
+    top: 62%;
+  }
+
+  main .clone .clone-box .clone-02 .text > span {
+    top: 5%; left: 40%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.ori  {
+    bottom: -80%; left: 36%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.cl {
+    bottom: -80%; left: 64%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  main .clone h1 {
+    top: -18%; left: 22%;
+  }
+
+  main .clone .clone-box {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  main .clone .clone-box .clone-01 > p {
+    width: 500px;
+    height: 520px;
+  }
+
+  main .clone .clone-box .clone-01 p img {
+    width: 440px;
+  }
+
+  main .clone .clone-box .clone-01 .text {
+    top: 60%;
+  }
+
+  main .clone .clone-box .clone-01 .text > h3 {
+    font-size: 1.4rem;
+  }
+
+  main .clone .clone-box .clone-01 .text > span {
+    top: 2%; left: 65%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.ori  {
+    bottom: -82%; left: 20%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.cl {
+    bottom: -82%; left: 48%;
+  }
+
+  main .clone .clone-box .clone-02 > p {
+    width: 500px;
+    height: 520px;
+  }
+
+  main .clone .clone-box .clone-02 p img {
+    width: 440px;
+  }
+
+  main .clone .clone-box .clone-02 .text {
+    top: 60%;
+  }
+
+  main .clone .clone-box .clone-02 .text > h3 {
+    font-size: 1.4rem;
+  }
+
+  main .clone .clone-box .clone-02 .text > span {
+    top: 2%; left: 35%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.ori  {
+    bottom: -82%; left: 20%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.cl {
+    bottom: -82%; left: 48%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .clone h1 {
+    top: -12%; left: 14%;
+  }
+
+  main .clone .clone-box {
+    margin-top: 86px;
+    margin-left: 0px;
+  }
+
+  main .clone .clone-box .clone-01 {
+    margin-right: 3%;
+  }
+
+  main .clone .clone-box .clone-01 > p {
+    width: 440px;
+    height: 480px;
+  }
+
+  main .clone .clone-box .clone-01 p img {
+    width: 382px;
+  }
+
+  main .clone .clone-box .clone-01 .text {
+    top: 58%;
+  }
+
+  main .clone .clone-box .clone-01 .text > h3 {
+    font-size: 1.2rem;
+  }
+
+  main .clone .clone-box .clone-01 .text > p {
+    font-size: 1rem;
+  }
+
+  main .clone .clone-box .clone-01 .text > span {
+    top: 2%; left: 56%;
+    font-size: 0.9rem;
+    width: 50px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  main .clone .clone-box .clone-01 .text > button a {
+    font-size: 1.1rem;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.ori  {
+    bottom: -85%; left: 22%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.cl {
+    bottom: -85%; left: 44%;
+  }
+
+  main .clone .clone-box .clone-02 > p {
+    width: 440px;
+    height: 480px;
+  }
+
+  main .clone .clone-box .clone-02 p img {
+    width: 382px;
+  }
+
+  main .clone .clone-box .clone-02 .text {
+    top: 58%;
+  }
+
+  main .clone .clone-box .clone-02 .text > h3 {
+    font-size: 1.2rem;
+  }
+
+  main .clone .clone-box .clone-02 .text > p {
+    font-size: 1rem;
+  }
+
+  main .clone .clone-box .clone-02 .text > span {
+    top: 2%; left: 30%;
+    font-size: 0.9rem;
+    width: 50px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  main .clone .clone-box .clone-02 .text > button a {
+    font-size: 1.1rem;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.ori  {
+    bottom: -85%; left: 22%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.cl {
+    bottom: -85%; left: 44%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main .clone h1 {
+    top: -10%; left: 10%;
+  }
+
+  main .clone .clone-box .clone-01 > p {
+    width: 380px;
+    height: 440px;
+  }
+
+  main .clone .clone-box .clone-01 p img {
+    width: 320px;
+  }
+
+  main .clone .clone-box .clone-01 .text {
+    top: 60%; left: 8%;
+  }
+
+  main .clone .clone-box .clone-01 .text > p {
+    font-size: 0.8rem;
+  }
+
+  main .clone .clone-box .clone-01 .text > span {
+    top: -50%; left: 0%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button a {
+    font-size: 0.8rem;
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.ori  {
+    bottom: -80%; left: 22%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.cl {
+    bottom: -80%; left: 39%;
+  }
+
+  main .clone .clone-box .clone-02 > p {
+    width: 380px;
+    height: 440px;
+  }
+
+  main .clone .clone-box .clone-02 p img {
+    width: 320px;
+  }
+
+  main .clone .clone-box .clone-02 .text {
+    top: 60%; left: 8%;
+  }
+
+  main .clone .clone-box .clone-02 .text > p {
+    font-size: 0.8rem;
+  }
+
+  main .clone .clone-box .clone-02 .text > span {
+    top: -50%; left: 0%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button a {
+    font-size: 0.8rem;
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.ori  {
+    bottom: -80%; left: 22%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.cl {
+    bottom: -80%; left: 39%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .clone h1 {
+    top: -12%; left: 3%;
+  }
+
+  main .clone .clone-box {
+    display: block;
+    margin-left: 68px;
+    margin-top: 50px;
+  }
+
+  main .clone .clone-box .clone-01 {
+    margin-bottom: 2%;
+  }
+
+  main .clone .clone-box .clone-01 > p {
+    width: 450px;
+    height: 320px;
+  }
+
+  main .clone .clone-box .clone-01 p img {
+    width: 280px;
+  }
+
+  main .clone .clone-box .clone-01 .text {
+    top: 65%; left: 2%;
+  }
+
+  main .clone .clone-box .clone-01 .text > span {
+    top: 2%; left: 56%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.ori  {
+    bottom: 180%; left: 50%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.cl {
+    bottom: 126%; left: 50%;
+  }
+
+  main .clone .clone-box .clone-02 > p {
+    width: 450px;
+    height: 320px;
+  }
+
+  main .clone .clone-box .clone-02 p img {
+    width: 280px;
+  }
+
+  main .clone .clone-box .clone-02 .text {
+    top: 65%; left: 2%;
+  }
+
+  main .clone .clone-box .clone-02 .text > span {
+    top: 2%; left: 30%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.ori  {
+    bottom: 180%; left: 50%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.cl {
+    bottom: 126%; left: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .clone h1 {
+    top: -12%; left: -1%;
+  }
+
+  main .clone .clone-box {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main .clone h1 {
+    top: -8%; left: -3%;
+    font-size: 3.4rem;
+  }
+
+  main .clone .clone-box {
+    margin-top: 50px;
+  }
+
+  main .clone .clone-box .clone-01 {
+    margin-bottom: 1%;
+  }
+
+  main .clone .clone-box .clone-01 > p {
+    width: 360px;
+    height: 260px;
+  }
+
+  main .clone .clone-box .clone-01 p img {
+    width: 200px;
+  }
+
+  main .clone .clone-box .clone-01 .text {
+    top: 62%; left: 2%;
+  }
+
+  main .clone .clone-box .clone-01 .text > h3 {
+    font-size: 0.9rem;
+  }
+
+  main .clone .clone-box .clone-01 .text > span {
+    top: 0%; left: 43%;
+    font-size: 0.8rem;
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.ori  {
+    bottom: 180%; left: 37%;
+  }
+
+  main .clone .clone-box .clone-01 .text > button.cl {
+    bottom: 126%; left: 37%;
+  }
+
+  main .clone .clone-box .clone-02 > p {
+    width: 360px;
+    height: 260px;
+  }
+
+  main .clone .clone-box .clone-02 p img {
+    width: 200px;
+  }
+
+  main .clone .clone-box .clone-02 .text {
+    top: 62%; left: 2%;
+  }
+
+  main .clone .clone-box .clone-02 .text > h3 {
+    font-size: 0.9rem;
+  }
+
+  main .clone .clone-box .clone-02 .text > span {
+    top: 0%; left: 23%;
+    font-size: 0.8rem;
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.ori  {
+    bottom: 180%; left: 37%;
+  }
+
+  main .clone .clone-box .clone-02 .text > button.cl {
+    bottom: 126%; left: 37%;
+  }
+}
+
+/* 320?? */
+
+/* portfolio - redesign */
+@media screen and (max-width: 1640px) {
+  main .re-design h1 {
+    top: -18%; left: 32%;
+  }
+
+  main .re-design .reD-box .reD-01  > p {
+    width: 600px;
+  }
+
+  main .re-design .reD-box .reD-01 p img  {
+    width: 540px;
+  }
+
+  main .re-design .reD-box .reD-01 .text {
+    top: 62%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > span {
+    top: 5%; left: 32%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.ori   {
+    bottom: -80%; left: 36%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.re {
+    bottom: -80%; left: 64%;
+  }
+
+  main .re-design .reD-box .reD-02 > p{
+    width: 600px;
+  }
+
+  main .re-design .reD-box .reD-02 p img {
+    width: 540px;
+  }
+
+  main .re-design .reD-box .reD-02 .text {
+    top: 62%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > span {
+    top: -1%; left: 37%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.ori  {
+    bottom: -80%; left: 36%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.re {
+    bottom: -80%; left: 64%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.pt {
+    bottom: -80%; left: 8%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  main .re-design h1 {
+    top: -18%; left: 33%;
+  }
+
+  main .re-design .reD-box {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  main .re-design .reD-box .reD-01  > p {
+    width: 500px;
+    height: 520px;
+  }
+
+  main .re-design .reD-box .reD-01 p img {
+    width: 440px;
+  }
+
+  main .re-design .reD-box .reD-01 .text {
+    top: 50%;  
+  }
+
+  main .re-design .reD-box .reD-01 > h3 {
+    font-size: 1.4rem;
+  }
+
+  main .re-design .reD-box .reD-01 > span {
+    top: -1.5%; left: 62%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.ori  {
+    bottom: -82%; left: 20%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.re {
+    bottom: -82%; left: 48%;
+  }
+
+  main .re-design .reD-box .reD-02 > p {
+    width: 500px;
+    height: 520px;
+  }
+
+  main .re-design .reD-box .reD-02 p img {
+    width: 440px;
+  }
+
+  main .re-design .reD-box .reD-02 .text {
+    top: 50%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > h3 {
+    font-size: 1.4rem;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group1 {
+    top: 1%; left: 25%;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group2 {
+    top: 1%; left: 37%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button a {
+    width: 140px;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.ori  {
+    bottom: -82%; left: 24.5%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.re {
+    bottom: -82%; left: 49%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.pt  {
+    bottom: -82%; left: 0%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .re-design h1 {
+    top: -12%; left: 22%;
+  }
+
+  main .re-design .reD-box {
+    margin-top: 86px;
+    margin-left: 0px;
+  }
+
+  main .re-design .reD-box .reD-01 {
+    margin-right: 3%;
+  }
+
+  main .re-design .reD-box .reD-01 > p {
+    width: 440px;
+    height: 480px;
+  }
+
+  main .re-design .reD-box .reD-01 p img {
+    width: 382px;
+  }
+
+  main .re-design .reD-box .reD-01 .text {
+    top: 46%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > h3 {
+    font-size: 1.2rem;
+  }
+
+  main .re-design .reD-box .reD-01 .text > p {
+    font-size: 1rem;
+  }
+
+  main .re-design .reD-box .reD-01 .text > span {
+    top: 2%; left: 24%;
+    font-size: 0.9rem;
+    width: 50px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button a {
+    font-size: 1.1rem;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.ori  {
+    bottom: -85%; left: 22%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.re {
+    bottom: -85%; left: 44%;
+  }
+
+  main .re-design .reD-box .reD-02 > p {
+    width: 440px;
+    height: 480px;
+  }
+
+  main .re-design .reD-box .reD-02 p img {
+    width: 382px;
+  }
+
+  main .re-design .reD-box .reD-02 .text {
+    top: 46%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > h3 {
+    font-size: 1.2rem;
+  }
+
+  main .re-design .reD-box .reD-02 .text > p {
+    font-size: 1rem;
+  }
+
+  main .re-design .reD-box .reD-02 .text > span {
+    top: -2.5%; left: 28%;
+    font-size: 0.9rem;
+    width: 50px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group1 {
+    top: 1%; left: 22%;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group2 {
+    top: 1%; left: 32%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button a {
+    font-size: 1.1rem;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.ori  {
+    bottom: -85%; left: 22%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.re {
+    bottom: -85%; left: 44%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.pt {
+    bottom: -85%; left: 0%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main .re-design h1 {
+    top: -10%; left: 18%;
+  }
+
+  main .re-design .reD-box .reD-01 > p {
+    width: 380px;
+    height: 440px;
+  }
+
+  main .re-design .reD-box .reD-01 p img {
+    width: 320px;
+  }
+
+  main .re-design .reD-box .reD-01 .text {
+    top: 44%; left: 8%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > p {
+    font-size: 0.8rem;
+  }
+
+  main .re-design .reD-box .reD-01 .text > span {
+    top: -50%; left: 0%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button a {
+    font-size: 0.8rem;
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.ori  {
+    bottom: -80%; left: 22%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.re {
+    bottom: -80%; left: 39%;
+  }
+
+  main .re-design .reD-box .reD-02 > p {
+    width: 380px;
+    height: 440px;
+  }
+
+  main .re-design .reD-box .reD-02 p img {
+    width: 320px;
+  }
+
+  main .re-design .reD-box .reD-02 .text {
+    top: 44%; left: 8%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > p {
+    font-size: 0.8rem;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group1 {
+    top: -50%; left: 0%;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group2 {
+    top: -50%; left: 10%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button a {
+    font-size: 0.8rem;
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.ori  {
+    bottom: -80%; left: 22%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.re {
+    bottom: -80%; left: 39%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.pt {
+    bottom: -80%; left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .re-design h1 {
+    top: -12%; left: 6%;
+  }
+
+  main .re-design .reD-box {
+    display: block;
+    margin-left: 68px;
+    margin-top: 50px;
+  }
+
+  main .re-design .reD-box .reD-01 {
+    margin-bottom: 2%;
+  }
+
+  main .re-design .reD-box .reD-01 > p {
+    width: 450px;
+    height: 320px;
+  }
+
+  main .re-design .reD-box .reD-01 p img {
+    width: 280px;
+  }
+
+  main .re-design .reD-box .reD-01 .text {
+    top: 65%; left: 6%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > span {
+    top: 2%; left: 24%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.ori  {
+    bottom: 180%; left: 50%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.re {
+    bottom: 126%; left: 50%;
+  }
+
+  main .re-design .reD-box .reD-02 > p {
+    width: 450px;
+    height: 320px;
+  }
+
+  main .re-design .reD-box .reD-02 p img {
+    width: 280px;
+  }
+
+  main .re-design .reD-box .reD-02 .text {
+    top: 65%; left: 6%;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group1 {
+    top: 2%; left: 22%;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group2 {
+    top: 2%; left: 32%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.ori  {
+    bottom: 180%; left: 50%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.re {
+    bottom: 126%; left: 50%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.pt {
+    bottom: 234%; left: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .re-design h1 {
+    top: -12%; left: -4%;
+  }
+
+  main .re-design .reD-box {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main .re-design h1 {
+    top: -8%; left: -18%;
+    font-size: 3.4rem;
+  }
+
+  main .re-design .reD-box {
+    margin-top: 50px;
+  }
+
+  main .re-design .reD-box .reD-01 {
+    margin-bottom: 5%;
+  }
+
+  main .re-design .reD-box .reD-01 > p {
+    width: 360px;
+    height: 260px;
+  }
+
+  main .re-design .reD-box .reD-01 p img {
+    width: 200px;
+  }
+
+  main .re-design .reD-box .reD-01 .text {
+    top: 62%; left: 8%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > h3 {
+    font-size: 0.9rem;
+  }
+
+  main .re-design .reD-box .reD-01 .text > span {
+    top: 0%; left: 18%;
+    font-size: 0.8rem;
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.ori  {
+    bottom: 180%; left: 37%;
+  }
+
+  main .re-design .reD-box .reD-01 .text > button.re {
+    bottom: 126%; left: 37%;
+  }
+
+  main .re-design .reD-box .reD-02 > p {
+    width: 360px;
+    height: 260px;
+  }
+
+  main .re-design .reD-box .reD-02 p img {
+    width: 200px;
+  }
+
+  main .re-design .reD-box .reD-02 .text {
+    top: 62%; left: 8%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > h3 {
+    font-size: 0.9rem;
+  }
+
+  main .re-design .reD-box .reD-02 .text > span {
+    top: 0%; left: 43%;
+    font-size: 0.8rem;
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group1 {
+    top: 0%; left: 16%;
+  }
+
+  main .re-design .reD-box .reD-02 .text span.group2 {
+    top: 0%; left: 26%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.ori  {
+    bottom: 180%; left: 37%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.re {
+    bottom: 126%; left: 37%;
+  }
+
+  main .re-design .reD-box .reD-02 .text > button.pt {
+    bottom: 234%; left: 37%;
+  }
+}
+
+/* 포트폴리오 Design */
+@media screen and (max-width: 1640px) {
+  main .portfolio-box-D .top {
+    top: 14%; left: 3.5%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  main .portfolio-box-D .top {
+    top: 14%; left: -1%;
+  }
+
+  main .portfolio-box-D .top > span {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .portfolio-box-D .top {
+    top: 16%; left: -18%;
+    width: 100%;
+  }
+
+  main .portfolio-box-D .top > span {
+    position: absolute;
+    top: -100%; left: 27%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main .portfolio-box-D .top {
+    top: 20%; left: -11%;
+    width: 100%;
+  }
+
+  main .portfolio-box-D .top > span {
+    position: absolute;
+    top: -100%; left: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .portfolio-box-D .top > span {
+    position: absolute;
+    top: -100%; left: 11.5%;
+  }
+
+  main .portfolio-box-D .top .right li a {
+    font-size: 1.1rem;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .portfolio-box-D .top {
+    top: 20%; left: -9%;
+  }
+
+  main .portfolio-box-D .top > span {
+    position: absolute;
+    top: -100%; left: 6.5%;
+  }
+
+  main .portfolio-box-D .top .right li a {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main .portfolio-box-D .top {
+    top: 20%; left: -5%;
+  }
+
+  main .portfolio-box-D .top > span {
+    position: absolute;
+    top: -100%; left: -6.5%;
+  }
+
+  main .portfolio-box-D .top .right li a {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main .portfolio-box-D .top {
+    top: 20%; left: -48%;
+  }
+
+  main .portfolio-box-D .top .right {
+    display: block;
+  }
+  
+  main .portfolio-box-D .top > span {
+    position: absolute;
+    top: -40%; left: 39%; 
+  }
+}
+
+/* 포트폴리오 - 상세페이지 */
+@media screen and (max-width: 1640px) {
+  main .portfolio-box-D .section .tab .slide-1 {
+    padding-top: 100px;
+  }
+
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide {
+    height: 300px;
+  }
+  
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .portfolio-box-D .section .tab .slide-1 {
+    padding-top: 140px;
+  }
+
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main .portfolio-box-D .section .tab .slide-1 {
+    padding-top: 160px;
+    height: 640px;
+  }
+
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide {
+    height: 200px;
+  }
+
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide.swiper-slide-active {
+    border: 5px solid #77a7ff;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main .portfolio-box-D .section .tab .slide-1 {
+    padding-top: 100px;
+  }
+
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide.swiper-slide-active {
+    border: 4px solid #77a7ff;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main .portfolio-box-D .section .tab .slide-1 {
+    padding-top: 100px;
+  }
+
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide {
+    height: 160px;
+  }
+
+  main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide.swiper-slide-active {
+    border: 2px solid #77a7ff;
+  }
+}
+
+/* 포트폴리오 reDesign */
+
+
 
 /* footer */
 @media screen and (max-width: 1472px) {
