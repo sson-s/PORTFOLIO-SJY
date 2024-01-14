@@ -197,7 +197,6 @@ header .top-btn span {
   width: 10px; 
   height: 10px;
   border: 2px solid #77a7ff;;
-  /* background-color: #fff; */
   border-radius: 50%;
   position: absolute;
   bottom: 72%; left: 43.6%;
@@ -250,18 +249,13 @@ header .top-btn span:nth-child(3) {
 /* main  --------------------------- */
 main {
   width: 100%;
-  /* height: 100vh; */
   display: block;
-  /* position: relative; */
-  /* height: auto; */
-  /* min-height: 100%; */
   padding-bottom: 1080px; 
 }
 
 main .inner .full-landing-image {
   width: 100%;
   height: 100vh;
-  /* height: 100%; */
   background: url('../img/bg2.png') no-repeat center center/cover;
 }
 
@@ -450,28 +444,16 @@ main .skill-box .full-landing-image {
   width: 100%;
   height: 100%;
   border: 1px solid #656F7C;
-  /* border: 1px solid #fff; */
   border-radius: 25%;
   position: absolute;
   bottom: 10%;
   right: 8%;
-  /* transition: width 0.2s ease 0s, height 0.2s ease 0.1s, border-top-width 0.1s ease 0.2s, margin 0.2s ease 0s; */
 }
 
 .skill-box .icon span:hover::after {
   border-color: #2D75FF;
   border-width: 2px;
 } 
-  
-  /* line 효과 */
-/* .skill-box .icon span:hover::after {
-  width: 60%;
-  height: 0;
-  border-width: 0 1px 1px;
-  margin: 0 20%;
-  transition: width 0.2s ease 0.2s, height 0.2s ease 0.1s, border-top-width 0.1s ease 0s, margin 0.2s ease 0.2s;
-} */
-
 
 /* ///////////////////////////////////// */
 /* 포트폴리오 clone */
@@ -537,7 +519,6 @@ main .clone .clone-box .clone-01 > p {
 }
 
 main .clone .clone-box .clone-01 p img {
-  /* border-radius: 24px; */
   position: absolute;
   top: 28px; left: 30px;
   border: 1px solid #eee;
@@ -623,10 +604,8 @@ main .clone .clone-box .clone-02 > p {
 }
 
 main .clone .clone-box .clone-02 p img {
-  /* border-radius: 24px; */
   position: absolute;
   top: 28px; left: 30px;
-  /* border: 1px solid #eee; */
 }
 
 main .clone .clone-box .clone-02 .text {
@@ -760,10 +739,8 @@ main .re-design .reD-box .reD-01  > p {
 }
 
 main .re-design .reD-box .reD-01 p img {
-  /* border-radius: 24px; */
   position: absolute;
   top: 28px; left: 30px;
-  /* border: 1px solid #eee; */
 }
 
 main .re-design .reD-box .reD-01 .text {
@@ -811,11 +788,13 @@ main .re-design .reD-box .reD-01 .text > button a {
   display: block;
   line-height: 46px;
   position: relative;
+  transition: all .5s;
 }
 
 main .re-design .reD-box .reD-01 .text > button a:hover {
   background-color: #2D75FF;
   color: #fff;
+  transition: all .5s;
 }
 
 main .re-design .reD-box .reD-01 .text > button.ori {
@@ -846,7 +825,6 @@ main .re-design .reD-box .reD-02 > p {
 }
 
 main .re-design .reD-box .reD-02 p img {
-  /* border-radius: 24px; */
   position: absolute;
   top: 28px; left: 30px;
   border: 1px solid #eee;
@@ -907,11 +885,13 @@ main .re-design .reD-box .reD-02 .text > button a {
   display: block;
   line-height: 46px;
   position: relative;
+  transition: all .5s;
 }
 
 main .re-design .reD-box .reD-02 .text > button a:hover {
   background-color: #2D75FF;
   color: #fff;
+  transition: all .5s;
 }
 
 main .re-design .reD-box .reD-02 .text > button.ori {
@@ -1000,26 +980,21 @@ main .portfolio-box-D .section .tab {
 
 /* 상세페이지 */
 main .portfolio-box-D .section .tab .slide-1 {
-  /* width: 1890px; */
   width: 100%;
-  /* width: 2400px; */
   height: 620px;
   padding-top: 20px;
 }
 
 main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper {
   width: 100%;
-  /* width: 1890px; */
   height: 600px;
 }
 
 main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide {
-  width: 200px; 
+  width: 200px;
   height: 400px;
   margin-top: 100px;
-  /* margin: 100px; */
   border-radius: 30px;
-  background-color: #fff;
   transform: translateY(0);
   transition: all 0.5s;
   overflow: hidden;
@@ -1034,7 +1009,6 @@ main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide:hover
 main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide.swiper-slide-active {
   transform: scale(1.5);
   border-radius: 30px;
-  /* margin: 0 50px; */
   margin-left: 100px;
   overflow: hidden;
   border: 6px solid #77a7ff;
@@ -1064,12 +1038,10 @@ main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper {
 }
 
 main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide {
-  width: 200px; 
+  width: 354px; 
   height: 400px;
   margin-top: 100px;
-  /* margin: 100px; */
   border-radius: 30px;
-  background-color: #fff;
   transform: translateY(0);
   transition: all 0.5s;
   overflow: hidden;
@@ -1084,7 +1056,6 @@ main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide:hover
 main .portfolio-box-D .section .tab .slide-2 .swiper-wrapper .swiper-slide.swiper-slide-active {
   transform: scale(1.5);
   border-radius: 30px;
-  /* margin: 0 50px; */
   margin-left: 100px;
   border: 6px solid #77a7ff;
   overflow: hidden;
@@ -1184,7 +1155,6 @@ main .portfolio-box-D .section .tab .slide-3 .swiper-button-prev {
   color: #77a7ff;
 }
 
-
 /* ect */
 main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1 {
   width: 1600px;
@@ -1214,7 +1184,6 @@ main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1
 main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box1 a img:hover {
   transform: translateY(-20px);
   transition: all 0.5s;
-  /* border: 6px solid #77a7ff; */
   opacity: 1;
 }
 
@@ -1240,7 +1209,6 @@ main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box2
 main .portfolio-box-D .section .tab .slide-4 .swiper-wrapper .swiper-slide .box2 a img:hover {
   transform: translateY(-20px);
   transition: all 0.5s;
-  /* border: 6px solid #77a7ff; */
   opacity: 1;
 }
 
@@ -1253,7 +1221,6 @@ main .portfolio-box-D .section .tab .slide-4 .swiper-button-prev {
   margin-left: 120px;
   color: #77a7ff;
 }
-
 
 /* footet ------------------------ */
 footer {

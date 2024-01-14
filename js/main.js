@@ -99,27 +99,27 @@ var swiper = new Swiper(".slide-1", {
   loop: true, 
   loopAdditionalSlies: 1,
   // 반응형
-  breakpoints : {
-    320: {
-      slidesPerView: 2,
-    },
+  // breakpoints : {
+  //   320: {
+  //     slidesPerView: 2,
+  //   },
 
-    480: {
-      slidesPerView: 2,
-    },
+  //   480: {
+  //     slidesPerView: 2,
+  //   },
 
-    600: {
-      slidesPerView: 3,
-    },
+  //   600: {
+  //     slidesPerView: 3,
+  //   },
     
-    768: {
-      slidesPerView: 3,
-    },
+  //   768: {
+  //     slidesPerView: 3,
+  //   },
 
-    1024: {
-      slidesPerView: 3,
-    },
-  }
+  //   1024: {
+  //     slidesPerView: 3,
+  //   },
+  // }
 });
 
 var swiper = new Swiper(".slide-2", {
@@ -131,27 +131,27 @@ var swiper = new Swiper(".slide-2", {
   loop: true, 
   loopAdditionalSlies: 1,
   // 반응형
-  breakpoints : {
-    320: {
-      slidesPerView: 2,
-    },
+  // breakpoints : {
+  //   320: {
+  //     slidesPerView: 2,
+  //   },
     
-    480: {
-      slidesPerView: 2,
-    },
+  //   480: {
+  //     slidesPerView: 2,
+  //   },
 
-    600: {
-      slidesPerView: 3,
-    },
+  //   600: {
+  //     slidesPerView: 3,
+  //   },
     
-    768: {
-      slidesPerView: 3,
-    },
+  //   768: {
+  //     slidesPerView: 3,
+  //   },
 
-    1024: {
-      slidesPerView: 3,
-    },
-  }
+  //   1024: {
+  //     slidesPerView: 3,
+  //   },
+  // }
 });
 
 var swiper = new Swiper(".slide-3", {

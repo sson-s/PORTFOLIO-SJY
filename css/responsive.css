@@ -316,7 +316,7 @@
 
   .skill-box .icon {
     top: 54%; left: -11%;
-   }
+  }
 }
 
 @media screen and (max-width: 894px) {
@@ -1213,7 +1213,6 @@
     bottom: 126%; left: 37%;
   }
 }
-
 /* 320?? */
 
 /* portfolio - redesign */
@@ -1844,7 +1843,7 @@
   
   main .portfolio-box-D .section .tab .slide-1 .swiper-wrapper .swiper-slide a img {
     object-fit: cover;
-    width: 100%;
+    width: 100%; 
     height: 100%;
   }
 }
@@ -1905,8 +1904,6 @@
 }
 
 /* 포트폴리오 reDesign */
-
-
 
 /* footer */
 @media screen and (max-width: 1472px) {
